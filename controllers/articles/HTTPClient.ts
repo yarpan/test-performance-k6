@@ -1,6 +1,6 @@
 import http from "k6/http";
 import { Login } from "./Login.ts";
-import { Articles } from "./Articles.ts";
+import { Articles } from "../Pizza.ts";
 
 export class HTTPClient {
   login: Login;
