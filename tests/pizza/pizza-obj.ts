@@ -1,7 +1,7 @@
 import { check } from "k6";
 import { Options } from "k6/options";
-import { Users } from "../controllers/Users.ts";
-import { Pizza } from "../controllers/Pizza.ts";
+import { Users } from "../../controllers/Users.ts";
+import { Pizza } from "../../controllers/Pizza.ts";
 
 export const options: Options = {
   vus: 1,
